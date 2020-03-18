@@ -2,11 +2,163 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>
+        <title>Module2-Assignment</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            body{
+                font-family:cursive;
+            }
+            h1{
+                text-align: center;
+                margin-top: 50px;
+            }
+ 
+            @media (min-width:992px) {
+                .box1,.box2,.box3{
+                border: 2px solid black;
+                margin-bottom: 10px;
+                width:27%;
+                margin-top:100px ;
+                background-color: grey;
+                overflow: hidden;
+            }
+            .box1{                
+                float: left;
+                margin-left: 5%;
 
-        </title>
+            }
+
+            .box2{
+                float: left;
+                margin-left: 5%;
+            }
+
+            .box3{
+                float: right;
+                margin-right: 5%;
+
+            }
+            }
+
+            @media (min-width:768px) and (max-width: 991px) {
+                .box1,.box2,.box3{
+                border: 2px solid black;
+                margin-bottom: 10px;
+                margin-top:100px ;
+                background-color: grey;
+                overflow: hidden;
+            }
+            .box1{                
+                margin-left: 5%;
+                float: left;
+                width: 40%;
+
+            }
+
+            .box2{
+                margin-left: 5%;
+                float: left;
+                width: 40%;
+            }
+
+            .box3{
+                margin-left:5% ;                
+                width:85.5% ;
+
+            }}
+
+            @media (max-width: 767px){
+                .box1,.box2,.box3{
+                border: 2px solid black;
+                margin-bottom: 5%;
+                background-color: grey;
+                overflow: hidden;
+                
+            }
+            .box1{                
+                width: 100%;
+                align-self: center;
+
+            }
+
+            .box2{  
+                width: 100%;
+                align-self: center;
+            }
+
+            .box3{                
+                width: 100%;
+                align-self: center;
+            }
+            }
+
+
+            .Heading1, .Heading2 ,.Heading3{
+                position: relative;
+                width: 30%;
+                left: 70%;
+                text-align: center;
+                border: 1px solid black;
+            }
+
+            .Heading1{
+                background-color:pink;
+            }
+            .Heading2{
+                background-color:rgb(179, 27, 27);
+                color: white;
+            }
+            .Heading3{
+                background-color:tan;
+            }
+        </style>
     </head>
     <body>
-        
+        <h1>Our Menu</h1>
+        <section>
+            <div class="box1">
+                <div class="Heading1">
+                    <h3>Chicken</h3>
+                </div>                
+                <div class="content1">
+                    <p>lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore 
+                        et dolore magna aliqua.Ut enim adminim weniam, quis nostrud exercitation ullamco laboris nisi ut 
+                        aliquip ex ea commodo consequat.</p>
+                </div>                
+            </div>
+        </section>
+
+        <section>
+            <div class="box2">
+                <div class="Heading2">
+                    <h3>Beef</h3>
+                </div>                
+                <div class="content2">
+                    <p>lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore 
+                        et dolore magna aliqua.Ut enim adminim weniam, quis nostrud exercitation ullamco laboris nisi ut 
+                        aliquip ex ea commodo consequat.</p>
+                </div>                
+            </div>
+            
+        </section>
+
+        <section>
+            <div class="box3">
+                <div class="Heading3">
+                    <h3>Sushi</h3>
+                </div>                
+                <div class="content3">
+                    <p>lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore 
+                        et dolore magna aliqua.Ut enim adminim weniam, quis nostrud exercitation ullamco laboris nisi ut 
+                        aliquip ex ea commodo consequat.</p>
+                </div>                
+            </div>
+            
+        </section>
+
+
     </body>
 </html>
