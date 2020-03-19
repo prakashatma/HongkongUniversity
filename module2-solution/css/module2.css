@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family:cursive;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+    .box1,.box2,.box3{
+        border: 2px solid black;
+        margin: auto;
+        width:50%;
+        background-color: grey;
+        margin-top: 50px;
+        display: block;
+    }                
+
+    @media (min-width:992px) {
+    .box1,.box2,.box3{
+    border: 2px solid black;
+    margin-bottom: 10px;
+    width:27%;
+    margin-top:100px ;
+    background-color: grey;
+    overflow: hidden;
+}
+.box1{                
+    float: left;
+    margin-left: 5%;
+
+}
+
+.box2{
+    float: left;
+    margin-left: 5%;
+}
+
+.box3{
+    float: right;
+    margin-right: 5%;
+
+}}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .box1,.box2,.box3{
+    border: 2px solid black;
+    margin-bottom: 10px;
+    margin-top:100px ;
+    background-color: grey;
+    overflow: hidden;
+}
+
+.box1{                
+    margin-left: 5%;
+    float: left;
+    width: 40%;
+
+}
+
+.box2{
+    margin-left: 5%;
+    float: left;
+    width: 40%;
+}
+
+.box3{
+    margin-left:5% ;                
+    width:85.5% ;
+
+}}
+
+.Heading1, .Heading2 ,.Heading3{
+    position: relative;
+    width: 30%;
+    left: 70%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.Heading1{
+    background-color:pink;
+}
+.Heading2{
+    background-color:rgb(179, 27, 27);
+    color: white;
+}
+.Heading3{
+    background-color:tan;
+}
