@@ -97,6 +97,21 @@ body{
     border: 2px solid #3f0c1f;
 }
 
+#menu-tile, #special-tile, #map-tile{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow:hidden;
+
+}
+
+#menu-tile:hover, #special-tile:hover, #map-tile:hover{
+    box-shadow: 0 1px 5px 1px  #cccccc;
+}
+
+
 @media (min-width: 1200px){
     .container .jumbotron{
         background: url(../images/jumbotron1.jpg) no-repeat;
