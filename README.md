@@ -13,4 +13,4 @@
 
 **week 3**
 
-* [week 3](https://prakashatma.github.io/HongkongUniversity/week3/)
+* [week 3](https://prakashatma.github.io/HongkongUniversity/week-3/)
