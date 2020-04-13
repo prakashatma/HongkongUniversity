@@ -1,0 +1,127 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family:cursive;
+}
+
+#nav-header{
+    background-color: rgb(121,121,121);
+    height: 70px;
+}
+
+.container, .navbar-brand , h1{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand{
+    padding-left: 50px;
+    padding-top:10px;
+}
+
+.navbar-brand h1{
+    color: black;
+}
+
+#collapsable-nav{
+    text-align: center;
+}
+
+.main_head{
+    text-align: center;
+    padding-left:100px ;
+}
+
+.content1{
+    margin:50px;
+    margin-right:-100px ;
+    background-color: rgb(121, 121, 121) ;
+    color: black;
+    padding: 10px;
+}
+
+.content_head1{
+    text-align: center;
+    padding-right: 40px;  
+    font-weight: 30px;
+    font-size: 20px;
+}
+.content{
+    padding: 10px;
+    font-size:16px;
+    word-spacing:5px;
+}
+
+@media(max-width: 767px){
+    #nav-header{
+        background-color: rgb(121,121,121);
+        height: 50px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .navbar-brand h1{
+        color: black;
+        font-size: 30px;
+        
+    }
+    #nav-list{
+        border: 1px solid black;
+        margin-top: -0.5px;
+        margin-left: 0.5px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    #nav-list a{
+        color: black;
+        padding: 5px ;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+        border: 1px solid black ;
+    }
+
+    hr{
+        margin: 0;
+        border-top: 1px solid black;
+    }
+    
+    #collapsable-nav{
+        text-align: center;
+        margin-right: 0;
+        padding-right: 0;
+        font-weight: 30px; 
+    }
+
+    .main_head{
+        text-align: center; 
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .content1{
+        margin:80px;
+        background-color: rgb(121, 121, 121) ;
+        color: black;
+        padding: 10px;   
+        
+        padding-right: 0;
+        /* margin-right: 0; */
+    }
+    
+    .content_head1{
+        text-align: center;
+        padding-right: 40px;  
+        font-weight: 30px;
+        font-size: 20px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .content{
+        padding: 10px;
+        font-size:16px;
+        word-spacing:5px;
+        margin-right:-12px;
+    }
+
+}
