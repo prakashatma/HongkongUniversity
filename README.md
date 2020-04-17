@@ -11,6 +11,10 @@
 * [Module 3](https://prakashatma.github.io/HongkongUniversity/module3-solution/)
 
 
+**Assignment 3:-**
+* [Module 4](https://prakashatma.github.io/HongkongUniversity/module4-solution/)
+
+
 **week 3**
 
 * [week 3](https://prakashatma.github.io/HongkongUniversity/week-3/)
