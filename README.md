@@ -9,3 +9,8 @@
 
 **Assignment 2:-**
 * [Module 3](https://prakashatma.github.io/HongkongUniversity/module3-solution/)
+
+
+**week 3**
+
+* [week 3](https://prakashatma.github.io/HongkongUniversity/week-3/)
