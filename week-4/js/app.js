@@ -1,0 +1,2 @@
+atmaGreeter.sayHello();
+PrakashGreeter.sayHi();
