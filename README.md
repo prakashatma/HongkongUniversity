@@ -23,3 +23,7 @@
 **week 4**
 
 * [week 4](https://prakashatma.github.io/HongkongUniversity/week-4/)
+
+**week 5**
+
+* [week 5](https://prakashatma.github.io/HongkongUniversity/week-5 main/)
