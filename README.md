@@ -2,17 +2,21 @@
 
 # Module 1 has no assignment
 
-**Assignment 1:-**
+**Assignment 2:-**
 
 * [Module 2](https://prakashatma.github.io/HongkongUniversity/module2-solution/)
 
 
-**Assignment 2:-**
+**Assignment 3:-**
 * [Module 3](https://prakashatma.github.io/HongkongUniversity/module3-solution/)
 
 
-**Assignment 3:-**
+**Assignment 4:-**
 * [Module 4](https://prakashatma.github.io/HongkongUniversity/module4-solution/)
+
+**Assignment 5:-**
+
+* [Module 5](https://prakashatma.github.io/HongkongUniversity/module5-solution/)
 
 
 **week 3**
